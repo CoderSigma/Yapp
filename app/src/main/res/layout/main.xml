@@ -1,14 +1,29 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
 	android:background="#0f0f0f">
 
-    <TextView
-        android:text="@string/alert"
+	<TextView
+		android:text="@string/alert"
 		android:textColor="#ffffff"
 		android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView"
+		android:layout_gravity="center"/>
+
+	<Button
+		android:text="Download"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="7dp"
+		android:id="@+id/button1"
+		android:background="#FF940000"/>
 
 </LinearLayout>
+
